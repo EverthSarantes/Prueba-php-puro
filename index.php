@@ -15,6 +15,9 @@
             <div class="col-md-3">
                 <a href="/views/agregar.php" class="btn btn-primary">Agregar Producto</a>
             </div>
+            <div class="col-md-3">
+                <a href="/controlers/excel.php" class="btn btn-success">Exportar a excel</a>
+            </div>
         </div>
         <div class="row mt-4">
             <?php
@@ -53,7 +56,6 @@
                         }
                         echo "</tbody>";                            
                     echo "</table>";
-                    // Free result set
                     $result->free();
                 }
                 else
