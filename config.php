@@ -1,8 +1,8 @@
 <?php
 
 $DB_HOST = 'localhost';
-$DB_USER = 'everth';
-$DB_PASS = 'everth';
+$DB_USER = '';
+$DB_PASS = '';
 $DB_Name = 'PruebaPhP';
 
 $mysqli = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_Name);
